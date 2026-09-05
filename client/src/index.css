@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply min-h-screen bg-cream font-sans text-ink;
+}
+
+input, select, textarea, button {
+  @apply font-sans;
+}

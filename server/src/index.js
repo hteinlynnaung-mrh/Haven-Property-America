@@ -34,7 +34,7 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ error: 'Something went wrong.' });
 });
 
-const port = Number(process.env.PORT) || 4000;
+const port = Number(process.env.PORT) || 4001;
 app.listen(port, () => {
   console.log(`Haven API listening on http://localhost:${port}`);
 });
